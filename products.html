@@ -6,13 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/fca13a1c83.js" crossorigin="anonymous"></script>
     <title>Integrador</title>
 </head>
 <body>
     <main-header></main-header>
 
+    <div class="container-fluid mt-5">
+        <div class="text-center">
+            <h1 class="mb-3">SHOES AND SNEAKERS</h1>
+            <p class="ps-5 pe-5">
+                Designed for style, engineered for performance and built for your active lifestyle, PUMA's collection of men's sneakers are ready to take you through your day. Whether you need a pair of training shoes for the gym or you need an everyday shoe to elevate your outfit, PUMA's sneakers for men offer comfort and versatility for every occasion. <p style="text-decoration: 1px underline blue; cursor: pointer" id="p1">Read More</p>
+            </p>
+            <div
+                class="ps-5 pe-5"
+                style="display: none;"
+                id="text"
+            >
+                Explore running shoes for men with the latest cutting-edge PUMA performance tech. Shock-absorbent and highly-cushioned midsoles deliver optimal support while durable outsoles provide maximum traction and superior grip, with breathable, retro-inspired uppers for unbeatable comfort. Old school track and court shoes are reimagined for modern streetwear in PUMA's collection of lifestyle shoes.Take a deep dive into PUMA's legendary sports heritage with classic shoes like Suede and Roma. Whatever the occasion, rock a pair of PUMA kicks for unparalleled performance and style. <p style="text-decoration: 1px underline blue; cursor: pointer" id="p2">Read Less</p>
+            </div>
+        </div>
+
+        <div class="container text-center mt-5">
+            <input
+                type="text"
+                class="form-control mr-sm-2"
+                id="filter"
+                placeholder="Search"
+                aria-label="Search"
+                placeholder="Enter title"
+                onkeyup="searchProducts()"
+            >
+        </div>
+
+        <div class="row pb-5 mt-5 mb-4" id="card-lists">
+        </div>
+    </div>
+
+    <main-footer></main-footer>
     
     <script src="header.js" type="text/javascript" defer></script>
+    <script src="footer.js" type="text/javascript" defer></script>
+    <script src="products.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

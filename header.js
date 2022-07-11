@@ -20,10 +20,10 @@ class Header extends HTMLElement {
                         <a class="navbar-brand" href="#">PUMBA</a>
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class=${className} aria-current="page" href="/home.html">Home</a>
+                                <a class="${className}" aria-current="page" href="/home.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class=${className} href="/products.html">Products</a>
+                                <a class="${className}" href="/products.html">Products</a>
                             </li>
                         </ul>
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 d-flex justify-content-end align-items-end">
