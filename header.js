@@ -25,6 +25,9 @@ class Header extends HTMLElement {
                             <li class="nav-item">
                                 <a class="${className}" href="/products.html">Products</a>
                             </li>
+                            <li class="nav-item" style="width: max-content;">
+                                <a class="${className}" style="width: fit-content" href="/newProduct.html">Create a Product</a>
+                            </li>
                         </ul>
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 d-flex justify-content-end align-items-end">
                             <li class="nav-item align-items-end">
